@@ -18,6 +18,8 @@
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>
+		<!--		using oauth authorizatation server instead of client to validate
+		the token we get from a keycloack server-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-oauth2-authorization-server</artifactId>

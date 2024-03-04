@@ -1,6 +1,5 @@
 package com.aschay.keycloakoauth2client.config;
 
-import static org.springframework.security.config.Customizer.withDefaults;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
